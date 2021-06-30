@@ -1,0 +1,8 @@
+rootProject.name = "MyApplication"
+include ':app'
+include ':domain:feature1'
+include ':domain:feature2'
+include ':ui:feature1'
+include ':ui:feature2'
+include ':libs:common'
+include ':libs:networking'

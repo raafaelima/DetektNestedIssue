@@ -1,0 +1,22 @@
+build:
+  #maxIssues: 4
+
+style:
+  NewLineAtEndOfFile:
+    active: false
+  ThrowsCount:
+    active: false
+  ReturnCount:
+    active: true
+    max: 3
+
+complexity:
+  TooManyFunctions:
+    thresholdInClasses: 20
+    ignoreOverridden: true
+
+exceptions:
+  TooGenericExceptionThrown:
+    active: false
+  TooGenericExceptionCaught:
+    active: false
